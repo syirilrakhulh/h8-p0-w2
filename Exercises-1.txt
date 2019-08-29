@@ -1,0 +1,32 @@
+STORE 'm' with 600
+STORE 'a' with 2
+STORE 'F' without any value
+
+
+CALCULATE 'm' times 'a'
+SET 'F value with calculation result
+
+DISPLAY 'F'
+
+
+STORE 'tahun' with any value
+
+IF 'tahun' DIVIDED 4 EQUALS 0 && 'tahun' DIVIDED 100 NOT EQUALS 0 THEN
+    DISPLAY 'Tahun Kabisat'
+IF ELSE 'tahun' DIVIDED 4 EQUALS 0 && 'tahun' DIVIDED 100 EQUALS 0 && 'tahun' DIVIDED 400 EQUALS 0 THEN
+    DISPLAY 'Tahun Kabisat'
+ELSE 
+    DISPLAY 'Bukan Tahun Kabisat'
+END IF
+
+END
+
+STORE 'pakaian' with any value
+
+IF 'pakaian' > 20
+    DO 'nyalakan mesin cuci'
+ELSE 'pakaian' < 20
+    DO 'tunggu sampai 20'
+END IF
+
+STORE 'siswa' with any value
