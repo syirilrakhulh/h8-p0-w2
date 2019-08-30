@@ -33,7 +33,7 @@ var word2 = word.substring(4,14);
 var word3 = word.substring(15,17);
 var word4 = word.substring(18,20);
 var word5 = word.substring(21,25);
-
+    
 console.log('Task 3');
 console.log('First Word: ' + word1);
 console.log('Second Word: ' + word2);

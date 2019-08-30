@@ -1,13 +1,32 @@
 function xo(str) {
-    var temp=''
-    for(x=str.length;x<str;x++){
-    return  temp +='x'
+
+    var count1 = 0;
+    var count2 = 0;
+
+    for (i = 0; i < str.length; i++) {
+
+        if (str[i] == 'x') {
+            count1++;
+        }
+
+        if (str[i] == 'o'){
+            count2++
+        }
+
     }
+
+    if(count1 == count2){
+        return true
+    }
+
+    else {
+        return false
+    }
+    
 }
-  
-  // TEST CASES
-  console.log(xo('xoxoxo')); // true
-  console.log(xo('oxooxo')); // false
-  console.log(xo('oxo')); // false
-  console.log(xo('xxxooo')); // true
-  console.log(xo('xoxooxxo')); // true
+
+console.log(xo('xoxoxo'));
+console.log(xo('oxooxo'));
+console.log(xo('oxo'));
+console.log(xo('xxxooo'));
+console.log(xo('xoxooxxo'));

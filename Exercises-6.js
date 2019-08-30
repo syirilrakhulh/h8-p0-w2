@@ -13,67 +13,69 @@ console.log('')
 
 var iwbfd=20
 
-console.log('Looping Pertama')
+console.log('Looping Kedua')
 while(iwbfd>0){
-    iwbfd -=2
     console.log(iwbfd + ' - i will become fullstack developer')
+    iwbfd -=2
 }
 
+console.log('')
 console.log('Task 2')
 console.log('')
 
-var ilc=0
-
 console.log('Looping Pertama')
-for(var ilc=0;ilc<20;ilc++){
+
+for(var ilc=1;ilc<=20;ilc++){
     console.log(ilc + ' - i love coding')   
 }
 
-console.log('Task 2')
 console.log('')
-
-var iwbfd=20
-
 console.log('Looping Kedua')
+
 for(var iwbfd=20;iwbfd>0;iwbfd--){
     console.log(iwbfd + ' - i will become fullstack developer')   
 }
 
+console.log('')
 console.log('Task 3')
 console.log('')
 
-var bilangan=0
-
-for(var bilangan=0;bilangan<100;bilangan++){
+for(var bilangan=1;bilangan<=100;bilangan++){
     if (bilangan % 2 != 0){
-        console.log(bilangan + ' adalah bilangan ganjil')
+        console.log(bilangan + ' GANJIL')
     } else
-      console.log(bilangan + ' adalah bilangan genap')
+      console.log(bilangan + ' GENAP')
 }
 
-var bilangan=0
+console.log('')
 
-for(var bilangan=0;bilangan<100;bilangan += 2){
-    if (bilangan % 3 != 0){
-        console.log(bilangan + ' adalah bukan kelipatan 3')
-    } else
-      console.log(bilangan + ' adalah kelipatan 3')
+for(var bilangan=1;bilangan<=100;bilangan += 2){
+    if (bilangan % 3 == 0){
+        console.log(bilangan + ' kelipatan 3')
+    }
+    else {
+        console.log(bilangan)
+    }
 }
 
-var bilangan=0
+console.log('')
 
-for(var bilangan=0;bilangan<100;bilangan += 5){
-    if (bilangan % 6 != 0){
-        console.log(bilangan + ' adalah bukan kelipatan 6')
-    } else
-      console.log(bilangan + ' adalah kelipatan 6')
+for(var bilangan=1;bilangan<=100;bilangan += 5){
+    if (bilangan % 6 == 0){
+        console.log(bilangan + ' kelipatan 6')
+    }
+    else {
+        console.log(bilangan)
+    }
 }
 
-var bilangan=0
+console.log('')
 
-for(var bilangan=0;bilangan<100;bilangan += 9){
-    if (bilangan % 10 != 0){
-        console.log(bilangan + ' adalah bukan kelipatan 10')
-    } else
-      console.log(bilangan + ' adalah kelipatan 10')
+for(var bilangan=1;bilangan<=100;bilangan += 9){
+    if (bilangan % 10 == 0){
+        console.log(bilangan + ' kelipatan 10')
+    }
+    else {
+        console.log(bilangan)
+    }
 }
