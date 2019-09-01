@@ -11,9 +11,9 @@ DISPLAY 'F'
 
 STORE 'tahun' with any value
 
-IF 'tahun' DIVIDED 4 EQUALS 0 && 'tahun' DIVIDED 100 NOT EQUALS 0 THEN
+IF 'tahun' DIVIDED 4 EQUALS 0 and 'tahun' DIVIDED 100 NOT EQUALS 0 THEN
     DISPLAY 'Tahun Kabisat'
-IF ELSE 'tahun' DIVIDED 4 EQUALS 0 && 'tahun' DIVIDED 100 EQUALS 0 && 'tahun' DIVIDED 400 EQUALS 0 THEN
+IF ELSE 'tahun' DIVIDED 4 EQUALS 0 and 'tahun' DIVIDED 100 EQUALS 0 and 'tahun' DIVIDED 400 EQUALS 0 THEN
     DISPLAY 'Tahun Kabisat'
 ELSE 
     DISPLAY 'Bukan Tahun Kabisat'
@@ -21,12 +21,27 @@ END IF
 
 END
 
-STORE 'pakaian' with any value
+STORE 'pakaian' with value 20
 
 IF 'pakaian' > 20
-    DO 'nyalakan mesin cuci'
+    DISPLAY 'nyalakan mesin cuci'
 ELSE 'pakaian' < 20
-    DO 'tunggu sampai 20'
+    DISPLAY 'tunggu sampai 20'
 END IF
 
-STORE 'siswa' with any value
+END
+
+STARE
+
+STORE 'siswa' with value 40 
+STORE 'kuku' with any value
+
+LOOP 'i' from 0 to 'siswa'
+
+IF 'kuku' EQUALS panjang, THEN
+    DISPLAY 'mendapat hukuman,
+ELSE, THEN
+    DISPLAY 'mendapat pujian'
+ENDIF
+
+END
