@@ -22,4 +22,7 @@ else{
     console.log('Selamat datang di Dunia Proxytia, ' + nama)
     console.log('Halo ' + peran + ' ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!')
     }
+  else {
+    console.log('peran yang kamu masukkan tidak ada!')
+  }
 }
